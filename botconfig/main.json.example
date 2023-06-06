@@ -14,7 +14,7 @@
   "prefix": "-",
 
   "developerID": ["518803886459322379"],
-"mongooseConnectionString": "mongodb+srv://Cinnamon:Akshat272009@cluster0.r8g9y0x.mongodb.net/?retryWrites=true&w=majority",
+"mongooseConnectionString": "",
   "colorthemecode":"#FF5733",
   
   "randomMessages_Cooldown": ["Slow It Down Fam...", "Spam Isn't Cool Fam....", "Get Premium dude...", "Never Gonna Let You Down","Subscribe To Boba lol", "Hold ur horses...."],

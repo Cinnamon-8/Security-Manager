@@ -75,25 +75,25 @@ const row2 = new MessageActionRow()
       
       .setStyle("LINK") 
 .setEmoji("909758706290417714")
-      .setURL("https://dsc.gg/moonlight05"),
+      .setURL("https://discord.gg/8xVr5RYzbw"),
       new MessageButton()
       .setLabel("Support Server")
       
       .setStyle("LINK") 
 .setEmoji("911535908518527018")
-      .setURL("https://dsc.gg/lunarteam"),
+      .setURL("https://discord.gg/8xVr5RYzbw"),
       new MessageButton()
       .setLabel("Vote me")
       
       .setStyle("LINK") 
 .setEmoji("911545788608430111")
-      .setURL("https://top.gg/bot/903922960354672671/vote")
+      .setURL("https://top.gg/test")
   )
   
 const embed = new MessageEmbed()
-  .setTitle("**HELP MENU**")
-  .setDescription(`Pls select a category to see more commands.\n\n> <:C4N1:909758187769593866> \`\Prefix\`\: ${config.prefix}\n> <:C42Button:909758293080162344> \`\Total Commands\`\: ${client.commands.size}\n> <:C43Button:909758539185156146> \`\Total Servers\`\: ${client.guilds.cache.size} `)
-  .setImage("https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif")
+  .setTitle("**⚙️ Help Menu**")
+  .setDescription(`Pls select a category to see more commands.\n\n> 🧭 \`\Prefix\`\: ${config.prefix}\n> ⚒️ \`\Total Commands\`\: ${client.commands.size}\n> 📊 \`\Total Servers\`\: ${client.guilds.cache.size} `)
+  .setImage("https://media.discordapp.net/attachments/914430942842597387/942081952691916800/Screenshot_2.jpg?width=819&height=314")
 .setColor("#f4c2c2")
 
 
@@ -101,10 +101,10 @@ const embed = new MessageEmbed()
 
 let embed1 = new MessageEmbed()
 .setColor('#FFFFFF')
-.setTitle('**HELP MENU**')
+.setTitle('**⚙️ Help Menu**')
 .addFields(
     {name: "**CONFIG COMMANDS**", value: "`set-countingchannel`, `setwelcomechannel`, `setleavechannel`"})
-.setImage("https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif")
+.setImage("https://media.discordapp.net/attachments/914430942842597387/942081952691916800/Screenshot_2.jpg?width=819&height=314")
 .setColor("#f4c2c2")
 .setFooter('Page 1')
 
@@ -112,58 +112,58 @@ let embed1 = new MessageEmbed()
 
     let embed2 = new MessageEmbed()
   
-    .setTitle('**Help Menu**')
+    .setTitle('**⚙️ Help Menu**')
     .setColor('#FFFFFF')
   .addFields(
     {name: "**ECONOMY COMMANDS**", value: "`balance`, `deposit`, `withdraw`, `search`, `shop`, `inv`, `pet`, `adopt`, `buy`, `sell`, `use`, `gamble`, `multi`, `beg`, `daily`, `fish`, `hunt`, `rob`, `rich` `postmeme`"})
 .setColor("#f4c2c2")
-.setImage("https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif")
+.setImage("https://media.discordapp.net/attachments/914430942842597387/942081952691916800/Screenshot_2.jpg?width=819&height=314")
 .setFooter('Page 2')
 
 
 
     
    let embed3 = new MessageEmbed()
-    .setTitle('**Help Menu**')
+    .setTitle('**⚙️ Help Menu**')
     .setColor('#FFFFFF')
   .addFields(
     {name: "**FUN COMMANDS**", value: "`8ball`, `activity`, `pixelize`, `meme`"})
      .setColor("#f4c2c2")
-     .setImage("https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif")
+     .setImage("https://media.discordapp.net/attachments/914430942842597387/942081952691916800/Screenshot_2.jpg?width=819&height=314")
     .setFooter('Page 3')
     
     let embed4 = new MessageEmbed()
   
-    .setTitle('**Help Menu**')
+    .setTitle('**⚙️ Help Menu**')
     .setColor('#FFFFFF')
   .addFields(
     {name: "**GAMES COMMANDS**", value: "`c4`, `tictactoe`, `wouldyourather`, `roadrace`, `snake`, `football`, `quickclick`, `catchthefish`"})
-      .setImage("https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif")
+      .setImage("https://media.discordapp.net/attachments/914430942842597387/942081952691916800/Screenshot_2.jpg?width=819&height=314")
       .setColor("#f4c2c2")
 .setFooter('Page 4')
    
        let embed5 = new MessageEmbed()
-    .setTitle('**Help Menu**')
+    .setTitle('**⚙️ Help Menu**')
     .setColor('#FFFFFF')
   .addFields(
     {name: "**INFO COMMANDS**", value: "`help`, `cmdhelp`, `botinfo`, `ping`, `invite`, `embed`"})
-         .setImage("https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif")
+         .setImage("https://media.discordapp.net/attachments/914430942842597387/942081952691916800/Screenshot_2.jpg?width=819&height=314")
          .setColor("#f4c2c2")
     .setFooter('Page 5')
     
        let embed6 = new MessageEmbed()
-    .setTitle('**Help Menu**')
+    .setTitle('**⚙️ Help Menu**')
     .setColor('#FFFFFF')
   .addFields(
     {name: "**MOD COMMANDS**", value: "`ban`, `addroleall`, `removeroleall`, `softban`, `purge`, `mute`, `kick`, `tempmute`, `nuke` `stealemoji`"})
     .setFooter('Page 6')
-         .setImage("https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif")
+         .setImage("https://media.discordapp.net/attachments/914430942842597387/942081952691916800/Screenshot_2.jpg?width=819&height=314")
   .setColor("#f4c2c2")
        let embed7 = new MessageEmbed()
-    .setTitle('**Help Menu**')
+    .setTitle('**⚙️ Help Menu**')
     .setColor('#FFFFFF')
 .addFields({name: "**UTILITY COMMANDS**", value: "`addtag`, `edittag`, `removetag`, `afk`, `rolelist`, `snipe`, `timer`, `calculator`, `avatar`, `serverinfo`, `ss`, `dump`"})
-         .setImage("https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif")
+         .setImage("https://media.discordapp.net/attachments/914430942842597387/942081952691916800/Screenshot_2.jpg?width=819&height=314")
          .setColor("#f4c2c2")
     .setFooter('Page 7')
 

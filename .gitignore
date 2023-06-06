@@ -1,0 +1,13 @@
+.replit 
+replit.nix
+node_modules
+main.json
+botconfig/main.json
+.upm
+package.json
+package-lock.json
+.git
+
+
+
+

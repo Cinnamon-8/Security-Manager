@@ -87,8 +87,8 @@ if(token === ""){
    );
    console.log(
       chalk.green.bold("Still Need Help? Contact Me:\n") +
-         chalk.yellow.italic("Discord: Boba\n") +
-         chalk.yellow.italic("Discord Server: dsc.gg/lunarteam")
+         chalk.yellow.italic("Discord: Cinnamon#2377\n") +
+         chalk.yellow.italic("Discord Server: none")
    );
 } else {
    client.login(token);
